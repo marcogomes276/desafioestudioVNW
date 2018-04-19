@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 import SoftTech from '@/components/SoftTech'
 import SoftTechHome from '@/components/SoftTechHome'
+import Product from '@/components/Product'
 
 Vue.use(Router)
 
@@ -22,6 +23,11 @@ export default new Router({
       path:'/home',
       name:'SoftTechHome',
       component: SoftTechHome
+    },
+    {
+      path:'/product',
+      name:'Product',
+      component: Product
     }
   ]
 })
